@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int bar(short & m, int n) {
+int bar(int & m, int n) {
     m--;
     return m + n;
 }
@@ -18,6 +18,7 @@ int main() {
     int a = 3;
     int b = 5;
     foo(a, b);
+    int q = bar(a, b);
     std::cout << "a is " << a << " and b is " << b << std::endl;
     std::cout << "&a is " << &a << " and &b is " << &b << std::endl;
     return 0;
