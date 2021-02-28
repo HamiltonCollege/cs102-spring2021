@@ -12,7 +12,7 @@
  * @param failed set to true if and only if an unsigned int was successfully read
  * @return the read unsigned int
  */
-unsigned int read_uint(bool &failed) {
+unsigned int read_uint(bool & failed) {
     while (std::cin.peek() == ' ' or std::cin.peek() == '\n')
         std::cin.get();
 

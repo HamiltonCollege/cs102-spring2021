@@ -13,7 +13,7 @@
  * @param y a reference to an integer to update to 4.
  * @return nothing
  */
-void important(int &x, int &y) {
+void important(int & x, int & y) {
     x = 3;
     y = 4;
     std::cout << "x: " << x << std::endl;
@@ -24,7 +24,7 @@ void important(int &x, int &y) {
 int main() {
     /*
     int life = 3;
-    int &universe = life;
+    int & universe = life;
     std::cout << "&universe: " << &universe << std::endl;
     std::cout << "&life: " << &life << std::endl;
     std::cout << "life = " << life << std::endl;

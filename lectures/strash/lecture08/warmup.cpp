@@ -7,7 +7,7 @@
  */
 #include <iostream>
 
-void mystery(int x, int &y) {
+void mystery(int x, int & y) {
     if (x > y) {
         y = x;
     } else if (y > x) {

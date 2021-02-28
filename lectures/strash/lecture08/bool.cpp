@@ -14,7 +14,7 @@
  * @param failed set to true if and only if a boolean successfully read
  * @return true if read "true", false if "false"
  */
-bool read_bool(bool &failed) {
+bool read_bool(bool & failed) {
     char input_string[20] = {};
     std::cin >> input_string;
     failed = false;
