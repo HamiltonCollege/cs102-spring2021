@@ -87,9 +87,9 @@ void solve(int pegs[NUM_SPOTS], int num_discs, int from_peg, int via_peg, int to
 
 int main() {
 
-    int pegs[NUM_SPOTS] = {4, 3, 2, 1};
+    int pegs[NUM_SPOTS] = {4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0};
     print(pegs);
-    solve(pegs, 4, 0, 1, 2);
+    solve(pegs, NUM_DISCS, 0, 1, 2);
 
     return 0;
 }

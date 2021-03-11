@@ -63,16 +63,9 @@ void move(int pegs[NUM_SPOTS], int from_peg, int to_peg) {
 
 void solve(int pegs[NUM_SPOTS], int num_discs, int from_peg, int via_peg, int to_peg) {
 
-    // from_peg is 0, via_peg is 1, to_peg is 2
-
-    // ignore disc 4
-    // solve discs 3, 2, 1 from peg 0 (with peg 2 as via_peg) to peg 1
-    // move disc 4 to peg 2
-    // solve discs 3, 2, 1 from peg 1 (with peg 0 as via_peg) to peg 2
-
-    std::cout << "solving " << num_discs << " discs from peg " << from_peg;
-    std::cout << " via peg " << via_peg << " to peg " << to_peg << std::endl;
-    std::cin.get();
+    // std::cout << "solving " << num_discs << " discs from peg " << from_peg;
+    // std::cout << " via peg " << via_peg << " to peg " << to_peg << std::endl;
+    // std::cin.get();
 
     if (num_discs == 1) {
         std::cout << "Move 1 from peg " << from_peg << " to peg " << to_peg << std::endl;
@@ -110,14 +103,6 @@ int main() {
 
     int pegs[NUM_SPOTS] = {4, 3, 2, 1};
     print(pegs);
-    // move(pegs, 0, 1);
-    // move(pegs, 0, 2);
-    // move(pegs, 1, 2);
-    // move(pegs, 0, 1);
-    // move(pegs, 2, 0);
-    // move(pegs, 2, 1);
-    // move(pegs, 0, 1);
-    // move(pegs, 0, 2);
     solve(pegs, 4, 0, 1, 2);
 
     return 0;

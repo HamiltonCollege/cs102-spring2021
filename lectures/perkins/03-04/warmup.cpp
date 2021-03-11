@@ -1,8 +1,11 @@
 
 // Warmup: Which word would prompt the output "nonononon"?
+// Palindrome
 
 #include <iostream>
 #include <cstring>
+
+// R ada R
 
 bool foo(char s[], int i, int j) {
 
