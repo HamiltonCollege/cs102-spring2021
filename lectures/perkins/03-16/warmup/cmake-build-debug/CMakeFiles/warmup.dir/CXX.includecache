@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.Tx4Hb3fNhT/second.cpp
+second.h
+/tmp/tmp.Tx4Hb3fNhT/second.h
+
+/tmp/tmp.Tx4Hb3fNhT/second.h
+
