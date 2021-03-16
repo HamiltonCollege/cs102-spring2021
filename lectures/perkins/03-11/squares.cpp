@@ -23,11 +23,11 @@ int main() {
 
     fill_array(arr_ptr, size);
 
+    delete[] arr_ptr; // valgrind
+
     for (int i = 0; i < size; i++)
         std::cout << arr_ptr[i] << " ";
     std::cout << std::endl;
-
-    delete[] arr_ptr; // valgrind
 
     return 0;
 }
