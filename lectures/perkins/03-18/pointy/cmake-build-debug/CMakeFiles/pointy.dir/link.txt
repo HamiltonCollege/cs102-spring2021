@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/pointy.dir/main.cpp.o CMakeFiles/pointy.dir/ref.cpp.o  -o pointy 

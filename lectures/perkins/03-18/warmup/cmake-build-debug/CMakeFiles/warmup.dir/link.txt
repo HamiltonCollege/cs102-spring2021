@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/warmup.dir/main.cpp.o  -o warmup 
